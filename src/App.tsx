@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Header title="Hello World" />
+      <Header title={`Contador: ${counter}`} />
 
       <h1>{counter}</h1>
       <button type="button" onClick={handleButtonClick}>Aumentar</button>
